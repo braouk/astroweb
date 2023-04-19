@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Josephin";
+    src: url(./assets/JosefinSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Josephin";
+
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(50, 50, 50);
+    color: rgb(248, 253, 201);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background: rgb(255, 197, 197);
+    width: 100%;
+    color: brown;
+}
+
+nav ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+
+}
+
+nav li {
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+nav li:hover {
+    color: rgb(240, 100, 35);
+    border-bottom: rgb(240, 100, 35) solid;
+    border-width: 3px;
+    position: relative;
+}
+
+
+
+
+.main-header {
+    background: url(./assets/astro-myrio-header.jpg) fixed center/cover;
+    color: white;
+    padding: 100px 60px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+
+
+}
+
+.main-header h1 {
+    color: rgb(249, 179, 95);
+}
+
+.main-header h3 {
+    color: rgb(255, 89, 24);
+}
+
+.header-text {
+    display: block;
+    text-align: center;
+    padding: 40px 60px;
+    margin: 0 auto;
+}
+
+.species-part {
+
+
+    padding: 15px 20px;
+    color: rgb(240, 100, 35);
+
+
+}
+
+.spec-part-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px auto;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.spec-type-part {
+
+    margin: 5px 8px;
+}
+
+.spec-type-part img {
+    max-width: 100px;
+    margin: 5px 8px;
+
+
+}
+
+.spec-type-part h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+}
